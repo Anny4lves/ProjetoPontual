@@ -1,0 +1,167 @@
+.cadInsp1 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+    width: auto;
+    height: 100vh;
+
+
+}
+
+.lateralCadInsp {
+   display: grid;
+   background-color: #0B467C;
+   width: 500px;
+   height: 100vh;
+   border-radius: 0px 30px 10px 0px;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+
+}
+
+.btnInicio {
+    display: flex;
+    background-color: #84BDF2;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    height: 30px;
+    width: 100px;
+    margin: 5%;
+    transition: 400ms ease-in;
+    
+}
+.btnInicio:hover {
+    display: flex;
+    background-color: #5c84aa;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    height: 30px;
+    width: 100px;
+    margin: 5%;
+    transition: 400ms ease-out;
+    
+}
+
+.areaLogo {
+    display: flex;
+    object-fit: cover;
+    max-width: 200px;
+    max-height: 100px;
+    scale: 0.5;
+    align-items: center;
+}
+
+
+.areaRegistro {
+    display: grid;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    margin-top: 20%;  
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.tdsDireitos {
+    display: grid;
+    background-color: #D9D9D9;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    margin-top: 50%;
+    border-radius: 10px;
+    
+}
+
+
+
+/* CSS DOS INPUTS */
+
+.camposDadosInsp {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5);
+   
+    width: 90%;
+    height: 100vh;
+    justify-content: center;
+    padding: 5%;
+}
+
+input {
+    display: flex;
+    width: 80%;
+    height: 30px;
+    border-radius: 10px;
+    border-style: none;
+    box-shadow: #808080 1px 1px 3px;
+    margin-top: -40px;
+    padding: 5px;
+
+}
+
+.inputSenha {
+    width: 50%;
+}
+
+
+.fotoPerfil {
+    
+    max-width: 150px;
+    max-height: 150px;
+    object-fit: cover;
+    overflow: hidden;
+    margin-top: -10px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 38%;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: black 2px 2px 10px ;
+}
+
+#imgInsp {
+    
+    width: 150px;
+    height: 150px;
+    scale: 1;
+    
+}
+
+.btnCadastrar {
+    background-color: #0B467C;
+    width: 40%;
+    align-items: center;
+    justify-self: center;
+    border-style: none;
+    height: 65%;
+    border-radius: 20px;
+    font-size: 25px;
+    color: #fff;
+    box-shadow: #808080 1px 1px 5px;
+    padding: 5px;
+    transition: 200ms ease-in-out;
+}
+.btnCadastrar:hover {
+    background-color: #0a2e50;
+    width: 40%;
+    align-items: center;
+    justify-self: center;
+    border-style: none;
+    height: 65%;
+    border-radius: 20px;
+    font-size: 25px;
+    color: #fff;
+    box-shadow: #808080 5px 5px 10px;
+    padding: 5px;
+    transition: 200ms ease-in-out;
+}

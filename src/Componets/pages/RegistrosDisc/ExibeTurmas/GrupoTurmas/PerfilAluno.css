@@ -1,0 +1,88 @@
+.containerAlunos {
+    width: 100vw;
+    height: 100vh;
+    
+
+}
+
+.bloco2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 50px;
+    height: 30vh;
+    align-items: center;
+    
+
+}
+
+.containerDadosAluno {
+    display: flex;
+    width: 60vw;
+}
+
+.dadosAluno {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(1fr);
+    font-size: 20px;
+    margin-left: 30vh;
+    justify-content: center;
+    background-color: #D9D9D9;
+    border-radius: 2vh;
+    padding: 1vh;
+    box-shadow: black 2px 2px 10px ;
+    
+    
+}
+
+.nomeSerieTurmaTurno {
+    margin: 10px;
+}
+
+.fotoAluno {
+    margin-left: 25vh;
+}
+
+
+.nomeFotoAlunoPerfil {
+    margin: 10px;
+    margin-left: 25px;
+}
+
+.fotoAlunoPerfil {
+   
+    width: 10vw;
+    height: 20vh;
+    margin: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: #808080 5px 5px 10px;
+}
+#ftPerfilAluno{
+    scale: 1;
+    width: 10vw;
+    height: 20vh;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+
+.nomeMeses {
+    align-items: center;
+    display: flex;
+    width: 90vw;
+    justify-content: center;
+    display: flex;
+    margin-left: 10vh;
+    
+    
+}
+
+#inputCheckBox{
+    
+    margin: 0;
+    padding: 0;
+    
+}

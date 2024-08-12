@@ -1,0 +1,197 @@
+
+.acessoLogin {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 25px;
+}
+
+
+.conteinerLogin {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    width: 800px;
+    height: 550px;
+    background-color: #0B467C;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+    color: #fff;
+    justify-items: center;
+}
+
+.logoLogin {
+    width: 150px;
+    height: 150px;
+    scale: 0.4;
+    object-fit: contain;
+    margin-right: 40%;
+    margin-top: -40px;
+}
+
+.acessoEmailLogin, .acessoSenhaLogin {
+    width: 400px;
+}
+
+
+.inputLogin{
+    margin-top: 10px;
+    padding: 20px;
+    width: 400px;
+    border-style: none;
+}
+.btnAcessarLogin {
+    background-color: #84BDF2;
+    width: 30%;
+    align-items: center;
+    justify-self: center;
+    border-style: none;
+    height: 60%;
+    border-radius: 20px;
+    font-size: 25px;
+    color: #fff;
+    box-shadow: #0a0a0a 1px 1px 5px;
+    padding: 5px;
+    transition: 200ms ease-in-out;
+    margin-top: 5%;
+    cursor: pointer;
+}
+.btnAcessarLogin:hover {
+    background-color: #259ec3;
+    width: 30%;
+    align-items: center;
+    justify-self: center;
+    border-style: none;
+    height: 60%;
+    border-radius: 20px;
+    font-size: 25px;
+    color: #fff;
+    box-shadow: #1f1f1f 5px 5px 10px;
+    padding: 5px;
+    transition: 200ms ease-in-out;
+}
+
+.acessoLogin {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 25px;
+}
+
+
+.conteinerLogin {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    width: 800px;
+    height: 550px;
+    background-color: #0B467C;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+    color: #fff;
+    justify-items: center;
+}
+
+.logoLogin {
+    width: 150px;
+    height: 150px;
+    scale: 0.4;
+    object-fit: contain;
+    margin-right: 40%;
+    margin-top: -40px;
+
+}
+
+.acessoEmailLogin, .acessoSenhaLogin {
+    width: 400px;
+}
+
+
+.inputLogin{
+    margin-top: 10px;
+    padding: 20px;
+    width: 400px;
+    border-style: none;
+}
+
+
+
+
+
+/* MIN-WIDTH */
+
+/* Estilos para telas menores que 768px */
+@media (max-width: 768px) {
+    .conteinerLogin {
+        width: 90%;
+        height: 80vh;
+    }
+    
+    .logoLogin {
+        width: 100px;
+        height: 100px;
+        margin-right: 20%;
+        margin-top: -20px;
+    }
+    
+    .acessoEmailLogin, .acessoSenhaLogin {
+        width: 80%;
+    }
+    
+    .inputLogin{
+        width: 80%;
+    }
+    
+    .btnAcessarLogin {
+        width: 40%;
+        height: 50%;
+        font-size: 20px;
+    }
+}
+
+/* Estilos para telas menores que 480px */
+@media (max-width: 480px) {
+    .conteinerLogin {
+        width: 95%;
+        height: 90vh;
+    }
+    
+    .logoLogin {
+        width: 80px;
+        height: 80px;
+        margin-right: 10%;
+        margin-top: -10px;
+        overflow: cover;
+        object-fit: cover;
+        
+    }
+
+    .imgLogoLogin{
+        display: flex;
+        margin-left: -90vw;
+        margin-top: -10vh;
+        scale: 0.8;
+        
+        
+    }
+    
+    .acessoEmailLogin, .acessoSenhaLogin {
+        width: 90%;
+    }
+    
+    .inputLogin{
+        width: 90%;
+    }
+    
+    .btnAcessarLogin {
+        width: 50%;
+        height: 40%;
+        font-size: 18px;
+    }
+}
